@@ -39,7 +39,7 @@ const TopBar = (props) =>{
           <Box>
             <AppBar style={{display:'flex'}}>
               <Toolbar style={{flexGrow: '1'}}>
-                <Typography varaint="h5">
+                <Typography varaint="h5" style={{flexGrow:'1'}}>
                   {displayText}
                 </Typography>
                 {!props.status && <Button variant="contained" color="primary" onClick={props.handleClick}>{statusText}</Button>}
